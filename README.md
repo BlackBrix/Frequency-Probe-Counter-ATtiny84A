@@ -1,0 +1,2 @@
+# Frequency-Probe-Counter-ATtiny84A
+The Frequency Probe is a handheld tool designed to help you debug your circuits by giving a visual indication of the frequency or voltage at the probe. For a periodic waveform it gives a digital readout of the frequency, with a range of about 1Hz to 5MHz and an accuracy of better than 0.3%. For a voltage level it gives a readout of the voltage. It is based on an ATtiny84A, and is powered from a small Lipo cell.
