@@ -1,3 +1,9 @@
+this is a copy / fork of the original project of David Johnson-Davies from here:  
+http://www.technoblogy.com/show?25C4  
+https://github.com/technoblogy/frequency-probe  
+
+----  
+
 ## Frequency Probe
 
 7th December 2020
