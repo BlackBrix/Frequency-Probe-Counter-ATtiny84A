@@ -48,7 +48,7 @@ For example, at 10kHz the resolution accuracy is 0.083%.
 
 Here is a graph showing these points, and the overall accuracy of each method:
 
-![FrequencyProbeAccuracy.gif](pics/frequencyprobeaccuracy.gif)
+<img src="pics/frequencyprobeaccuracy.gif" alt="FrequencyProbeAccuracy.gif" width="493" height="302" />
 
 The best accuracy is defined by where the lines cross, which is achieved by using **Interval** mode for frequencies below 30kHz, and **Frequency** mode above that; this gives an accuracy of better than about 0.3% over all frequencies.
 
@@ -66,7 +66,7 @@ To test the probe with high frequencies I used my [Programmable Signal Generator
 
 Here's the circuit:
 
-![FrequencyProbe.gif](pics/frequencyprobe.gif)
+<img src="pics/frequencyprobe.gif" alt="FrequencyProbe.gif" width="720" height="298" />
 
 *Circuit of the Frequency Probe, based on an ATtiny84.*
 
@@ -92,7 +92,7 @@ The ATtiny84A is in an SOIC package, and the resistors, capacitor, and diodes ar
 
 I originally planned to power the circuit from a 3V CR1225 button cell in a surface mount holder, but this didn't prove capable of providing enough current. Fortunately I had also provided connections on the PCB for a Lipo battery, so I used a 40mAh cell that fits in the same space, attached to the board with a double-sided self-adhesive foam pad:
 
-![FreqProbe.jpg](pics/freqprobe.jpg)
+<img src="pics/freqprobe.jpg" alt="FreqProbe.jpg" width="720" height="170" />
 
 *Component side of the Frequency Probe.*
 
