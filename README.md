@@ -66,7 +66,7 @@ The voltage is read at the analogue input ADC1. The ADC uses the internal 1.1V r
 
 #### Testing the circuit
 
-To test the probe with high frequencies I used my [Programmable Signal Generator](</show?26SM>) to generate frequencies from 5MHz down to 1kHz. For lower frequencies I used my [Tiny Function Generator](</show?20W6>) for frequencies down to 1Hz, and I checked the frequencies against the frequency range on my digital multimeter.
+To test the probe with high frequencies I used my [Programmable Signal Generator](<http://www.technoblogy.com/show?26SM>) to generate frequencies from 5MHz down to 1kHz. For lower frequencies I used my [Tiny Function Generator](<http://www.technoblogy.com/show?20W6>) for frequencies down to 1Hz, and I checked the frequencies against the frequency range on my digital multimeter.
 
 ### Circuit
 
@@ -112,7 +112,7 @@ I used a Youyue 858D+ hot air gun at 250°C to solder the SMD components onto th
 
 The program consists of a display interface, to control the OLED display, the routines to implement the three modes, and a main loop which selects which mode to use for a given input signal.
 
-The display interface uses the same routines as my earlier [Tiny Function Generator](</show?20W6>), which used a similar I2C OLED display. Text is plotted on the display using a 6x8 pixel character set, but at double the scale to give an effective character size of 12x16 pixels, using the smoothing routine I described in [Smooth Big Text](</show?3AJ7>).
+The display interface uses the same routines as my earlier [Tiny Function Generator](<http://www.technoblogy.com/show?20W6>), which used a similar I2C OLED display. Text is plotted on the display using a 6x8 pixel character set, but at double the scale to give an effective character size of 12x16 pixels, using the smoothing routine I described in [Smooth Big Text](<http://www.technoblogy.com/show?3AJ7>).
 
 The current mode is determined by a variable **Mode**, which has the constant value INTERVAL in Interval Mode, and FREQUENCY in Frequency Mode. The circuit starts in Frequency Mode.
 
@@ -330,7 +330,7 @@ I connected to the ATtiny84 using a Pomona test clip that fitted to the top of t
 
 . Choose **Burn Bootloader** to set the fuses appropriately, then choose **Upload** to upload the program.
 
-Here's the whole Frequency Probe program: [Frequency Probe Program](</list?3CC3>).
+Here's the whole Frequency Probe program: [Frequency Probe Program](<http://www.technoblogy.com/list?3CC3>).
 
 Alternatively, get it on GitHub here together with the Eagle files for the PCB: [Frequency Probe on GitHub](<https://github.com/technoblogy/frequency-probe>).
 
